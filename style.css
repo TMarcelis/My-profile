@@ -1,0 +1,145 @@
+/*colors and fonts*/
+
+body {
+   background-color: #f6f6f6;
+   color: black
+   font-family: 'Playfair Display', serif;
+   font-size: 17px;
+   font-weight: lighter;
+}
+
+html {
+	text-align: center;
+}
+
+h1, h2,h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+h1{ 
+   color: #348498 ;
+   letter-spacing: 10px;
+   font-size: 32px
+   text-transform: uppercase;
+   font-weight: 900;
+ }
+
+h2 {
+
+	color: #f38181;
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 300;
+	letter-spacing: 3px
+    text-transform: unset;
+}
+
+
+a { 
+	font-family: 'Roboto', sans-serif
+	color: #8f758e;
+	font-weight: 600
+	font-size: 160px;
+ }
+
+ a:hover {
+ 	color: #ff502f;
+ }
+
+  div { 
+  	border-radius: 10px;  
+  	background: #fcf9ec 
+  	padding: 300px; 
+  	width: 500px; 
+  	margin: 20px auto
+    }
+
+
+ 
+
+
+  /* custom design with class */
+
+  .container { 
+  	width: 700px
+  	margin:4px auto;
+   }
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px
+	}
+}
+
+
+   .card-white {
+   	background-color: white;
+   	padding: 300px
+   	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+   	border-radius: 10px;
+   	border: 5px solid lightgrey
+   	margin: 20px auto
+   	width:500px;
+   }
+
+   
+
+   .btn-blue {
+   	background-color: red
+   	color:white ;
+   	padding: 15px 20px;
+   	border-radius: 4px;
+   	text-decoration: none;
+   	}
+
+   .btn-blue: hover{
+   	background-color: black;
+   	color: red;
+   }
+ 
+
+   .home-card {
+   	background:white;
+   	padding: 30px;
+   	border: 1px solid lightgrey;
+   }
+
+   .list-inline {
+   	list-style:none;
+   	padding-left: 0px;
+   }
+
+   .list-inline li {
+   	display: inline;
+   	padding: 10px;
+   }
+
+   .list-inline i:hover {
+   	font-size: 50px
+   	color: rgb(230,230,230);
+   }
+   
+
+  
+
+   #introduction p{
+   	margin-bottom: 40px
+   }
+   
+   .image-circle{
+  border-radius : 55px;
+ 
+}
+   
